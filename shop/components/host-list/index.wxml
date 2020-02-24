@@ -1,0 +1,13 @@
+<!--components/host-list/index.wxml-->
+<view class="container">
+  <image class="title" src="{{banner.img}}"></image>
+  <view class="inner-container">
+    <view hover-class="medium-hover" hover-stay-time="300">
+      <image class="left" src="{{leftItem.img}}"></image>
+    </view>
+    <view class="right-container">
+      <image class="right-size" src="{{rightTopItem.img}}"></image>
+      <image class="right-size" src="{{rightBottomItem.img}}"></image>
+    </view>
+  </view>
+</view> 
